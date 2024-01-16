@@ -14,4 +14,3 @@ exitBtn.onclick = () => {
     main.classList.remove('active');
 }
 
-
