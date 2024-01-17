@@ -68,7 +68,7 @@
     width: 200%;
 }
 
-.home {
+.main .home {
     position: relative;
     left: -50%;
     width:100%;
@@ -86,12 +86,15 @@
 }
 
 .home-content h1 {
+    color: aquamarine;
     font-size: 78px;
     font-weight: 700;
-    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .home-content p {
+    color: aquamarine;
+    font-weight: bold;
     font-size: 16px;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, .3);
@@ -141,7 +144,7 @@
 
 .popup-info h2 {
     font-size: 50px;
-    color:aquamarine;
+    color:aqua;
 }
 
 .popup-info .info {
@@ -180,12 +183,12 @@
     transition: .5s;
 }
 
-.popup-info .btn-group .info-btn:nth-child(1) {
+.popup-info .btn-group .info-btn:first-child {
     background: transparent;
     color: chartreuse;
 }
 
-.popup-info .btn-group .info-btn:nth-child(1):hover {
+.popup-info .btn-group .info-btn:first-child:hover {
     background: chartreuse;
     color: #fff;
 }
@@ -231,7 +234,7 @@
 
 .quiz-section .quiz-box.active {
     opacity: 1;
-    pointer-events: auto;
+    pointer-events: auto; 
     transform: scale(1);
     transition: 1s ease;
     transition-delay: 1s;
@@ -262,6 +265,8 @@
     background: forestgreen;
     border-radius: 3px;
     padding: 7px;
+    justify-content: center;
+    align-items: center;
 }
 
 .quiz-box .question-text {
