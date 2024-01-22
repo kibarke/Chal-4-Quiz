@@ -1,7 +1,7 @@
 let questions = [
     {
         numb: 1,
-        questions: "Who plays Iron-Man?",
+        question: "Who plays Iron-Man?",
         answer: "C. Robert Downey Junior",
         options: [
             "A. Tom Hiddlestone",
@@ -12,7 +12,7 @@ let questions = [
     },
     {
         numb: 2,
-        questions: "What is the Capital of the United States?",
+        question: "What is the Capital of the United States?",
         answer: "B. Washington D.C.",
         options: [
             "A. Los Angeles",
@@ -23,7 +23,7 @@ let questions = [
     },
     {
         numb: 3,
-        questions: "What is Walt Disney’s main character?",
+        question: "What is Walt Disney’s main character?",
         answer: "A. Mickey Mouse",
         options: [
             "A. Mickey Mouse",
@@ -34,7 +34,7 @@ let questions = [
     },
     {
         numb: 4,
-        questions: "How many horcruxes does Voldemort have?",
+        question: "How many horcruxes does Voldemort have?",
         answer: "C. 7",
         options: [
             "A. 9",
@@ -45,7 +45,7 @@ let questions = [
     },
     {
         numb: 5,
-        questions: "In Greek Mythology, Kronos was killed by ____?",
+        question: "In Greek Mythology, Kronos was killed by ____?",
         answer: "D. Zeus",
         options: [
             "A. Percy Jackson",
