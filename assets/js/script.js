@@ -40,6 +40,8 @@ nextBtn.onclick = () => {
 
         questionNumb++;
         questionCounter(questionNumb);
+
+        nextBtn.classList.remove('active');
     }
     else {
         console.log('Question Completed');
@@ -98,6 +100,8 @@ function showQuestions(index) {
     for (let i = 0; i < allOptions; i++) {
         optionList.children[i].classList.add('disabled');
         }
+
+        nextBtn.classList.add('active');
   }
 
   function questionCounter(index) {

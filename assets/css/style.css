@@ -150,7 +150,7 @@
 .popup-info .info {
     display: inline-block;
     font-size: 16px;
-    color: chartreuse;
+    color: #69b71b;
     font-weight: 500;
     margin: 4px 0;
 } 
@@ -336,14 +336,15 @@
     transition: .5s;
 }
 
-.quiz-footer .next-btn.active:hover {
-    background: forestgreen;
-    border-color: forestgreen;
-}
 
 .quiz-footer .next-btn.active {
     pointer-events: auto;
     background: #00a63d;
     border-color: #00a63d;
     color: #fff;
+}
+
+.quiz-footer .next-btn.active:hover {
+    background: forestgreen;
+    border-color: forestgreen;
 }
